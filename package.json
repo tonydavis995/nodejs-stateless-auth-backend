@@ -1,0 +1,47 @@
+{
+  "name": "bmc-node",
+  "version": "1.0.0",
+  "description": "authentication",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "oauth": "^0.9.15",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^5.5.0"
+  },
+  "scripts": {
+    "start": "nodemon -r dotenv/config  server.js --exec ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brewdotcom/bmc-node.git"
+  },
+  "author": "bmc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brewdotcom/bmc-node/issues"
+  },
+  "homepage": "https://github.com/brewdotcom/bmc-node#readme"
+}
