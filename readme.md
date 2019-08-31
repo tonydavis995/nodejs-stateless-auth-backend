@@ -15,7 +15,7 @@ npm start
 
 Use the postman api [documentation](https://documenter.getpostman.com/view/6421015/SVfRtT99) for reference.
 
-##Client side Request Token requets
+##Client side Request Token requests
 
 ```Facebook:https://www.facebook.com/v4.0/dialog/oauth?client_id=525757241562402&redirect_uri=https://brew.com/following&scope=email&response_type=code ```
 
